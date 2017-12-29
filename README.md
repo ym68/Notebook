@@ -19,6 +19,6 @@ exif_bytes = piexif.dump(exif_dict)
 im.save(new_file, "jpeg", exif=exif_bytes)
 
 # datetime
- import datetime #导入日期时间模块
->>> today = datetime.date.today() #获得今天的日期
->>> print today #输出今天日期
+import datetime #导入日期时间模块
+today = datetime.date.today() #获得今天的日期
+print(today) #输出今天日期
