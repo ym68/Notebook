@@ -2,9 +2,12 @@
 Hello world testing
 This is the change to Hello-world by ym68 in May 2016
 
-### piexif
+
+# piexif
+### $ pip install piexif
+
 from PIL import Image
-import piexif
+impo piexif
 
 im = Image.open(filename)
 exif_dict = piexif.load(im.info["exif"])
